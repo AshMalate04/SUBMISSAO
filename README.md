@@ -1,19 +1,31 @@
-# SISAEP-UPM — Protótipos refinados
+# SUBMISSAO - SISAEP-UPM
 
-Visual atualizado conforme referência: sidebar branco, campos alinhados em cards, painel lateral de resumo, verde institucional com dourado.
+Prototipos React + TypeScript para o SISAEP-UPM, com Vite, Tailwind CSS e componentes React.
 
-## Rodar
+## Rodar localmente
+
 ```bash
 npm install
 npm run dev
 ```
 
-## Todas as telas
+## Ver todas as telas
+
 ```text
 http://localhost:5173/?screen=todas
 ```
 
-## Build/Vercel
-Build command: `npm run build`
-Output: `dist`
-"# SISACEP-Prototipo" 
+## Build
+
+```bash
+npm run build
+```
+
+## Deploy na Vercel
+
+- Framework: Vite
+- Build command: `npm run build`
+- Output directory: `dist`
+- Install command: `npm install`
+
+O projeto nao deve versionar `node_modules/` nem `dist/`; esses diretorios ja estao no `.gitignore`.

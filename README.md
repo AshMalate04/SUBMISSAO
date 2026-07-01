@@ -1,31 +1,31 @@
+# SUBMISSAO - SISAEP-UPM
 
-# SISAEP-UPM — Protótipos React + TypeScript
-
-Protótipos em **1280×720**, refinados com:
-- uso das cores da logomarca da UPM;
-- **sidebar branco** e tipografia escura;
-- **verde** como cor principal para botões;
-- telas de **login, recuperação de senha, OTP e nova senha** inspiradas no exemplo enviado;
-- botões **Visualizar** e **Registar** onde faz sentido;
-- página com todas as telas em `?screen=todas`.
+Prototipos React + TypeScript para o SISAEP-UPM, criados com Vite, Tailwind CSS e React.
 
 ## Rodar localmente
+
 ```bash
 npm install
 npm run dev
 ```
 
+## Ver todas as telas
+
+```text
+http://localhost:5173/?screen=todas
+```
+
 ## Build
+
 ```bash
 npm run build
 ```
 
-## Vercel
+## Deploy na Vercel
+
 - Framework: Vite
+- Install command: `npm install`
 - Build command: `npm run build`
 - Output directory: `dist`
 
-## Figma
-Depois de publicar:
-`https://seu-site.vercel.app/?screen=todas`
-"# SUBMISSAO" 
+Nao versionar `node_modules/` nem `dist/`; esses diretorios sao gerados localmente ou durante o deploy.
